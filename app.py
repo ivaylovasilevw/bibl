@@ -10,7 +10,7 @@ books = [
 st.title("book checker app")
 st.write("enter a book title to check if it exists in the database")
 #-------USER INPUT-------
-uaer_input = st.text_input("book title")
+user_input = st.text_input("book title")
 #-------CHECK BUTTON-------
 if st.button("check book")
 if user_input.strip() == "":
