@@ -12,7 +12,7 @@ st.write("enter a book title to check if it exists in the database")
 #-------USER INPUT-------
 user_input = st.text_input("book title")
 #-------CHECK BUTTON-------
-if st.button("check book")
+if st.button("check book"):
 if user_input.strip() == "":
   st.warning("please enter a book title")
 elif user_input in books:
